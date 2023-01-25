@@ -28,7 +28,9 @@ numgen.py - A python file with 3 methods: create_list, write_list_to_file, and m
                     . Reads the file invoked, puts its values in a list one per line, then sorts the 
                     list using the quickSort method in quicksort.py.
 
-pseudo_quicksort - A pseudocode text file of how the quicksort algorithm is done.
+pseudo_quicksort.txt - A pseudocode text file of how the quicksort algorithm is done.
+
+.gitignore - Ignores all txt files because we do not want to track them.
 
 **********How to use/run**********
 
