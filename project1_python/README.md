@@ -46,4 +46,4 @@ original file name '-sorted' at the end.
 **********Design Notes**********
 
 The program only depends on 'numgen.py' and 'quicksort.py' to execute. However, the next step of this software is to separate
-the main in 'numgen.py' into a different class to avaid class  
+the main in 'numgen.py' into a different class in order to have a cleaner code base.
