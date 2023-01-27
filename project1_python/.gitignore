@@ -1,2 +1,4 @@
 # ignores all .txt files
 .txt
+! numbers_for_experiment.txt
+!numbers_for_experiment-sorted.txt
