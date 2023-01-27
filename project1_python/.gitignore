@@ -2,3 +2,6 @@
 .txt
 ! numbers_for_experiment.txt
 !numbers_for_experiment-sorted.txt
+
+# ignore pychache
+--pychache--/
