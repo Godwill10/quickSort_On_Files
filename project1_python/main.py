@@ -13,9 +13,8 @@ def main():
     Reading the randomly generated values from the the_filename
     Puts them in list_of_nums list and print them out
     """
-
     list_of_nums = []
-    the_filename = 'numbers_for_experiment.txt'
+    the_filename = '1M_numbers'
     infile = open(the_filename, 'r')
     for aline in infile:
         anumber = int(aline)
@@ -27,14 +26,17 @@ def main():
     Orders the randomly generated values in list_of_nums
     Print the values out in the new order and stores them in a new file
     named with the original file name '-sorted' at the end
-    
     """
     size = len(list_of_nums)
-    quicksort.quickSort(list_of_nums, 0, size - 1)
+    assign, comp = quicksort.quickSort(list_of_nums, 0, size - 1)
     print('Ordered list:')
     print(list_of_nums)
+    print()
+    print("Input size: ", the_filename)
+    print("Assignment: ", assign)
+    print("Comparison: ", comp)
 
-    the_new_filename = the_filename + '-ordered'
+    the_new_filename = the_filename + '-ordered.txt'
     numgen.write_list_to_file(the_new_filename, list_of_nums)
     print('Sorted values to ', the_new_filename)
 
