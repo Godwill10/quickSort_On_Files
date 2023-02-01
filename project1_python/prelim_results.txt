@@ -1,0 +1,14 @@
+Input size:  10k_numbers
+Assignment:  263123
+Comparison:  154415
+Sorted values to  10k_numbers-ordered.txt
+
+Input size:  100k_numbers
+Assignment:  3186549
+Comparison:  2044336
+Sorted values to  100k_numbers-ordered.txt
+
+Input size:  1M_numbers
+Assignment:  44277429
+Comparison:  25225681
+Sorted values to  1M_numbers-ordered.txt
