@@ -14,7 +14,7 @@ def main():
     Puts them in list_of_nums list and print them out
     """
     list_of_nums = []
-    the_filename = '1M_numbers'
+    the_filename = 'text_files/1M_numbers'
     infile = open(the_filename, 'r')
     for aline in infile:
         anumber = int(aline)
