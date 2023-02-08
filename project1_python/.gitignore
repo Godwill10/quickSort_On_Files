@@ -1,7 +1,9 @@
 # ignores all .txt files
 .txt
-!numbers_for_experiment.txt
-!numbers_for_experiment-sorted.txt
+!10M_numbers-sorted.txt
+!10K_numbers-sorted.txt
+!100K_numbers-sorted.txt
+
 
 # ignore pychache
 --pychache--/
