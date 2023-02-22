@@ -14,7 +14,7 @@ def main():
     Reading the randomly generated values from the the_filename
     Puts them in list_of_nums list and print them out
     """
-    path = '/Users/owner/Downloads/project1_python/project1_python/text_files'
+    path = 'project1_python/text_files'
     folder = os.fsencode(path)
     list_of_nums = []
 
@@ -22,6 +22,7 @@ def main():
         filename = os.fsdecode(file)
         if filename.endswith('.txt'):
             the_filename = filename
+            print(the_filename)
             infile = open(filename, 'r')
             for aline in infile:
                 anumber = int(aline)
